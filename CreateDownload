@@ -3,4 +3,4 @@ import urllib.request
 print('Beginning file download with urllib2...')
 
 url = "https://github.com/bursteinalan/Data-Sets/blob/master/Housing/House%20Prediction%20Data.csv"
-urllib.request.urlretrieve(url, '/Users/serikzhan/Downloads/HousePrediction.csv')
+urllib.request.urlretrieve(url, 'HousePrediction.csv')
