@@ -17,3 +17,12 @@ GarageArea       0.623431
 GarageCars       0.640409
 GrLivArea        0.708624
 OverallQual      0.790982
+
+df.plot.scatter(x = 'SalePrice', y = 'LotArea')
+Here we use scatter for SalePrice and LotArea and see that almost all of our LotArea is under 50k and SalePrice under 500k.
+df.plot.scatter(x = 'SalePrice', y = 'OverallQual')
+Next scatter helps us understand the range of each quality point price range
+df.plot.scatter(x = 'SalePrice', y = 'GrLivArea')
+Above grade (ground) living area square feet is also highly concentrated under 400k price range
+df.plot.scatter(x = 'SalePrice', y = 'GarageCars')
+Higher the number of cars in garage wider the range price of houses, but for 4 cars garage houses the range is the lowest.
