@@ -17,3 +17,5 @@ Corr_with_price = correl['SalePrice']
 sorted_correl = correl.sort_values(by = ['SalePrice'])
 sorted_correl['SalePrice']
 df.MSZoning.value_counts()
+
+git config --global core.excludesfile ~/.gitignore_global
